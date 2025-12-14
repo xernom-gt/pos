@@ -15,7 +15,9 @@ class DatabaseSeeder extends Seeder
             CategorySeeder::class,
             ProductSeeder::class,
             MemberSeeder::class,
+            UserSeeder::class
             // Anda dapat menambahkan seeder lain di sini
         ]);
+        
     }
 }
